@@ -6,4 +6,4 @@ const port = process.env.PORT || 3001; // PUEDE COLOCAR CUALQUIER PUERTO
 
 server.use(middlewares)
 server.use(router)
-serverer.listen(port)
+server.listen(port)
